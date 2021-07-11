@@ -6,11 +6,13 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "devtool": "react-devtools",
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
     "react": "17.0.1",
+    "react-devtools": "^4.13.5",
     "react-native": "0.64.2"
   },
   "devDependencies": {
