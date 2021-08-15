@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 const App = () => {
   return (
     <View>
-      <Text>Test</Text>
+      <Text style={{ fontFamily: 'Bold' }}>Anmol Kumar Singh</Text>
     </View>
   );
 };

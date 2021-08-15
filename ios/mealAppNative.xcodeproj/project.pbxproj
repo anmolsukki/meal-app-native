@@ -12,6 +12,10 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		F1D42A8C9DD8454A934F8FDD /* Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F0FBD6DE26F4C439994BF9F /* Bold.ttf */; };
+		506080A4A25044EC97026F90 /* Medium-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1450B062808649ACB768DB08 /* Medium-Italic.ttf */; };
+		12E6F2262757487C98E8AF6D /* Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7600DBE6562C4B4AA3835EF6 /* Medium.ttf */; };
+		CFB28A39586A49CC8378B16B /* Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 356291F70FAB46EEBFEFE3A4 /* Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = mealAppNative/main.m; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mealAppNative/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		0F0FBD6DE26F4C439994BF9F /* Bold.ttf */ = {isa = PBXFileReference; name = "Bold.ttf"; path = "../src/Assets/fonts/Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1450B062808649ACB768DB08 /* Medium-Italic.ttf */ = {isa = PBXFileReference; name = "Medium-Italic.ttf"; path = "../src/Assets/fonts/Medium-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7600DBE6562C4B4AA3835EF6 /* Medium.ttf */ = {isa = PBXFileReference; name = "Medium.ttf"; path = "../src/Assets/fonts/Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		356291F70FAB46EEBFEFE3A4 /* Regular.ttf */ = {isa = PBXFileReference; name = "Regular.ttf"; path = "../src/Assets/fonts/Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,7 @@
 				00E356EF1AD99517003FC87E /* mealAppNativeTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				0142C2B1EDA14F7F92EA5BFA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -123,6 +132,18 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
+		};
+		0142C2B1EDA14F7F92EA5BFA /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				0F0FBD6DE26F4C439994BF9F /* Bold.ttf */,
+				1450B062808649ACB768DB08 /* Medium-Italic.ttf */,
+				7600DBE6562C4B4AA3835EF6 /* Medium.ttf */,
+				356291F70FAB46EEBFEFE3A4 /* Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -214,6 +235,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F1D42A8C9DD8454A934F8FDD /* Bold.ttf in Resources */,
+				506080A4A25044EC97026F90 /* Medium-Italic.ttf in Resources */,
+				12E6F2262757487C98E8AF6D /* Medium.ttf in Resources */,
+				CFB28A39586A49CC8378B16B /* Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
